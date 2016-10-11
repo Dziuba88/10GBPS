@@ -1,0 +1,53 @@
+// FOOTER 
+footer.site-footer
+  .row.wrapper
+    .col.s5.wrapper-left
+      h3.grey-text.lighten-1 We ve got you back
+        br
+        |   24 x 7 x 360
+      p.grey-text.lighten-1
+        | Our helpful and always ready are 
+        br
+        |  a click or callaway. 
+        br
+        |  Anytime 
+        br
+        |  Anywhere
+      a.btn.btn-small.waves-effect.waves-cyan(href='#') CHAT WITH  OUR EXPERTS
+    .col.s7.wrapper-right
+      .section-heading.right-align
+        h2.section-title.white-text Free advice from an expert
+        p.section-desc.white-text
+          | We’ll help you 
+          span.secondary-text connect twith your support team
+      form.advice-form(action='#', method='GET')
+        .row.right-align
+          .input-field.is-input
+            input#form-name.validate(type='text', name='name')
+            label(for='form-name') Name
+          .input-field.is-input
+            input#form-email.validate(type='email', name='email')
+            label(for='form-email') Email Address
+          .input-field.is-input
+            input#form-tel(type='tel', name='phone')
+            label(for='form-tel') Phone number (otpional)
+        .input-field
+          textarea#form-textarea.materialize-textarea(name='message')
+          label(for='form-textarea') How can we assist you?
+        .input-field.input-field-footer.clearfix
+          .form-group-col.is-button
+            button.btn.btn-small.waves-effect.waves-light(type='submit') Submit
+          .form-group-col.is-image
+            a.btn-refresh.i_refresh(href='#')
+            img(src='images/temp/captcha.jpg', alt='')
+          .form-group-col.is-input
+            input.form-control(type='text', name='captcha')
+  .footer-copyright
+    .container
+      a.brand(href=""): img(src="images/logo-footer.png", alt="")
+      span.white-text Copyring  2005-2016 All Rights Reserved
+// SCRIPTS 
+script(src='js/jquery.min.js')
+// <script src="js/libs/jquery-migrate.min.js"></script> 
+script(src='js/plugins.js')
+script(src='js/main.js')

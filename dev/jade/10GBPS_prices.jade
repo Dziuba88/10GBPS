@@ -1,0 +1,354 @@
+doctype html
+html.no-js(lang='en')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='')
+    title 10GBPS - Price Page
+    // CORE CSS
+    link(href='css/style.css', type='text/css', rel='stylesheet', media='screen')
+  body.pricing-page
+    include inc/header
+    section.page-header.deep-purple.darken-2
+      .row.fs
+        .col.l5.wrapper-left
+          .page-header-title
+            h1.page-title.white-text Pricing
+        .col.l7.wrapper-right.cover-1
+          .page-header-desc
+            h3 Save for your summer holliday!
+            p Pay for 2 months & we give you the 3rd minth free of charge. Click the button to activate our summer promotion.
+            a.btn.waves-effect.waves-light(href='#') ORDER
+    section.site-main.deep-purple.clearfix
+      .container
+        .server-list
+          .server-item
+            h2.server-item-type
+              span 1U
+            .server-item-header
+              h3.server-item-title 1x Intel Quad-Core Xeon E3-1230v3, v5
+            form.services-form(action='#', method='GET')
+              .server-item-entry
+                .server-item-currency
+                  span Currency: 
+                  input#i1-usd(type='radio', name='currency', value='USD')
+                  label(for='i1-usd'): span USD
+                  input#i1-eur(type='radio', name='currency', value='EUR')
+                  label(for='i1-eur'): span EUR
+                  input#i1-gbp(type='radio', name='currency', value='GBP')
+                  label(for='i1-gbp'): span GBP
+                input(type='hidden', name='order', value='E3-1230v3')
+                .server-item-param
+                  span.label.primary-text RAM
+                  .server-item-param-list
+                    label.active
+                      input(type='radio', name='ram', value='16 Gb')
+                      span.changeAmount 16 Gb
+                    label
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 32 Gb
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 64 Gb
+                .server-item-param
+                  span.label STORAGE
+                  .server-item-param-list
+                    label
+                      input(type='radio', name='ram', value='16 Gb')
+                      span.changeAmount 2x240 GB SSD
+                    label.active
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 2x1 TB HDD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 4x2 TB HDD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 4x500 GB SSD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount CUSTOM
+                .server-item-param
+                  span.label BANDWIDTH
+                  .server-item-param-list
+                    label
+                      input(type='radio', name='ram', value='10 GBPS')
+                      span.changeAmount 10 GBPS
+                    label
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 5 GBPS
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 2 GBPS
+                    label.active
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 1 GBPS
+              .server-item-order
+                h6.mini-title Price month
+                .server-item-pricing
+                  .server-item-pricing-order
+                    span.width-price
+                      strong 100 TB 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+                  .server-item-pricing-order
+                    span.width-price
+                      strong 300 TB 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='', disabled='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+                  .server-item-pricing-order
+                    span.width-price
+                      strong Unmetered 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='', disabled='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+          .server-item
+            h2.server-item-type
+              span 1U
+            .server-item-header
+              h3.server-item-title 1x Intel Quad-Core Xeon E3-1230v3, v5
+            form.services-form(action='#', method='GET')
+              .server-item-entry
+                .server-item-currency
+                  span Currency: 
+                  input#i2-usd(type='radio', name='currency', value='USD')
+                  label(for='i2-usd'): span USD
+                  input#i2-eur(type='radio', name='currency', value='EUR')
+                  label(for='i2-eur'): span EUR
+                  input#i2-gbp(type='radio', name='currency', value='GBP')
+                  label(for='i2-gbp'): span GBP
+                input(type='hidden', name='order', value='E3-1230v3')
+                .server-item-param
+                  span.label.primary-text RAM
+                  .server-item-param-list
+                    label.active
+                      input(type='radio', name='ram', value='16 Gb')
+                      span.changeAmount 16 Gb
+                    label
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 32 Gb
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 64 Gb
+                .server-item-param
+                  span.label STORAGE
+                  .server-item-param-list
+                    label
+                      input(type='radio', name='ram', value='16 Gb')
+                      span.changeAmount 2x240 GB SSD
+                    label.active
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 2x1 TB HDD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 4x2 TB HDD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 4x500 GB SSD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount CUSTOM
+                .server-item-param
+                  span.label BANDWIDTH
+                  .server-item-param-list
+                    label
+                      input(type='radio', name='ram', value='10 GBPS')
+                      span.changeAmount 10 GBPS
+                    label
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 5 GBPS
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 2 GBPS
+                    label.active
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 1 GBPS
+              .server-item-order
+                h6.mini-title Price month
+                .server-item-pricing
+                  .server-item-pricing-order
+                    span.width-price
+                      strong 100 TB 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+                  .server-item-pricing-order
+                    span.width-price
+                      strong 300 TB 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+                  .server-item-pricing-order
+                    span.width-price
+                      strong Unmetered 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+          .server-item
+            h2.server-item-type
+              span 1U
+            .server-item-header
+              h3.server-item-title 1x Intel Quad-Core Xeon E3-1230v3, v5
+            form.services-form(action='#', method='GET')
+              .server-item-entry
+                .server-item-currency
+                  span Currency: 
+                  input#i3-usd(type='radio', name='currency', value='USD')
+                  label(for='i3-usd'): span USD
+                  input#i3-eur(type='radio', name='currency', value='EUR')
+                  label(for='i3-eur'): span EUR
+                  input#i3-gbp(type='radio', name='currency', value='GBP')
+                  label(for='i3-gbp'): span GBP
+                input(type='hidden', name='order', value='E3-1230v3')
+                .server-item-param
+                  span.label.primary-text RAM
+                  .server-item-param-list
+                    label.active
+                      input(type='radio', name='ram', value='16 Gb')
+                      span.changeAmount 16 Gb
+                    label
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 32 Gb
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 64 Gb
+                .server-item-param
+                  span.label STORAGE
+                  .server-item-param-list
+                    label
+                      input(type='radio', name='ram', value='16 Gb')
+                      span.changeAmount 2x240 GB SSD
+                    label.active
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 2x1 TB HDD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 4x2 TB HDD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 4x500 GB SSD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount CUSTOM
+                .server-item-param
+                  span.label BANDWIDTH
+                  .server-item-param-list
+                    label
+                      input(type='radio', name='ram', value='10 GBPS')
+                      span.changeAmount 10 GBPS
+                    label
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 5 GBPS
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 2 GBPS
+                    label.active
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 1 GBPS
+              .server-item-order
+                h6.mini-title Price month
+                .server-item-pricing
+                  .server-item-pricing-order
+                    span.width-price
+                      strong 100 TB 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+                  .server-item-pricing-order
+                    span.width-price
+                      strong 300 TB 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+                  .server-item-pricing-order
+                    span.width-price
+                      strong Unmetered 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+          .server-item
+            h2.server-item-type
+              span 1U
+            .server-item-header
+              h3.server-item-title 1x Intel Quad-Core Xeon E3-1230v3, v5
+            form.services-form(action='#', method='GET')
+              .server-item-entry
+                .server-item-currency
+                  span Currency: 
+                  input#i4-usd(type='radio', name='currency', value='USD')
+                  label(for='i4-usd'): span USD
+                  input#i4-eur(type='radio', name='currency', value='EUR')
+                  label(for='i4-eur'): span EUR
+                  input#i4-gbp(type='radio', name='currency', value='GBP')
+                  label(for='i4-gbp'): span GBP
+                input(type='hidden', name='order', value='E3-1230v3')
+                .server-item-param
+                  span.label.primary-text RAM
+                  .server-item-param-list
+                    label.active
+                      input(type='radio', name='ram', value='16 Gb')
+                      span.changeAmount 16 Gb
+                    label
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 32 Gb
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 64 Gb
+                .server-item-param
+                  span.label STORAGE
+                  .server-item-param-list
+                    label
+                      input(type='radio', name='ram', value='16 Gb')
+                      span.changeAmount 2x240 GB SSD
+                    label.active
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 2x1 TB HDD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 4x2 TB HDD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 4x500 GB SSD
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount CUSTOM
+                .server-item-param
+                  span.label BANDWIDTH
+                  .server-item-param-list
+                    label
+                      input(type='radio', name='ram', value='10 GBPS')
+                      span.changeAmount 10 GBPS
+                    label
+                      input(type='radio', name='ram', value='32 Gb')
+                      span.changeAmount 5 GBPS
+                    label
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 2 GBPS
+                    label.active
+                      input(type='radio', name='ram', value='64 Gb')
+                      span.changeAmount 1 GBPS
+              .server-item-order
+                h6.mini-title Price month
+                .server-item-pricing
+                  .server-item-pricing-order
+                    span.width-price
+                      strong 100 TB 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light.z-depth-0(type='submit', name='price', value='') order
+                      input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+                  .server-item-pricing-order
+                    span.width-price
+                      strong 300 TB 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light(type='submit', name='price', value='') order
+                      input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+                  .server-item-pricing-order
+                    span.width-price
+                      strong Unmetered 
+                      span.price 490 €
+                    button.btn.btn-small.waves-effect.waves-light(type='submit', name='price', value='') order
+                    input(type='hidden', name='traffic', value='100 TB', disabled='disabled')
+    include inc/footer 
