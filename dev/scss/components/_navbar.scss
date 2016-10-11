@@ -124,7 +124,7 @@ nav {
       &.active a {
         color: $secondary-color;
 
-        &:after {
+        &:after {display: block;
           width:100%;
           left:0;
         }
@@ -167,9 +167,9 @@ nav {
       }
 
       &:hover {
-        color: $secondary-color;
+        color: #bdbdbd;
 
-        &:after {
+        &:after {display: none;
           width:100%;
           left:0;
         }

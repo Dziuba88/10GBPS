@@ -1769,7 +1769,7 @@ nav ul li:last-child { padding-left: 45px; border-right: none; }
 
 nav ul li.active a { color: #00bcd4; }
 
-nav ul li.active a:after { width: 100%; left: 0; }
+nav ul li.active a:after { display: block; width: 100%; left: 0; }
 
 nav ul a { position: relative; transition: all .3s ease; font-size: 1rem; color: #fff; display: block; padding: 0 25px; cursor: pointer; }
 
@@ -1781,9 +1781,9 @@ nav ul a.btn:hover, nav ul a.btn-large:hover, nav ul a.btn-large:hover, nav ul a
 
 nav ul a:after { position: absolute; display: block; content: ""; background: #00bcd4; width: 0; height: 4px; bottom: 0; left: 50%; transition: all .3s ease; }
 
-nav ul a:hover { color: #00bcd4; }
+nav ul a:hover { color: #bdbdbd; }
 
-nav ul a:hover:after { width: 100%; left: 0; }
+nav ul a:hover:after { display: none; width: 100%; left: 0; }
 
 nav ul.left { float: left; }
 
