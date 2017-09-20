@@ -19,11 +19,11 @@ jQuery(document).ready(function($) {
             wrap_width = wrap_inner.outerWidth();
 
         var calcR = function(el) {
-            return wrap_width - el.position().left - el.outerWidth() - //$this.scrollLeft() ;
+            //return wrap_width - el.position().left - el.outerWidth() - $this.scrollLeft() ;
         };
 
         var calcL = function(el) {
-            return el.position().left - $this.scrollLeft();
+            //return el.position().left - $this.scrollLeft();
         };
 
         wrap_inner.append('<div class="indicator"></div>');
