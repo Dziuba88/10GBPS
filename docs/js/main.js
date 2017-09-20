@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
             wrap_width = wrap_inner.outerWidth();
 
         var calcR = function(el) {
-            return wrap_width - el.position().left - el.outerWidth() - $this.scrollLeft() ;
+            return wrap_width - el.position().left - el.outerWidth() - //$this.scrollLeft() ;
         };
 
         var calcL = function(el) {
